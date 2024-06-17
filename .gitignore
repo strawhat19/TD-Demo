@@ -1,0 +1,33 @@
+# Ignore everything
+*
+
+# Except these
+!.gitignore
+!LICENSE
+
+# Include specific directories
+!Assets/
+!ProjectSettings/
+!Packages/
+!MySpecialFolder/
+
+# Include specific files in the root directory
+!README.md
+!myProject.sln
+!myProject.csproj
+
+# Recursively include all files within the included directories
+!Assets/**
+!ProjectSettings/**
+!Packages/**
+!MySpecialFolder/**
+
+# Ignore all .meta files
+*.meta
+
+# Keep ignoring some specific files that might still be included
+# These lines are optional based on your project needs
+Library/
+Temp/
+Logs/
+.plastic/
